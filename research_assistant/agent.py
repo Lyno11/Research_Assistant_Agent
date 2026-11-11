@@ -3,7 +3,7 @@ from google.adk.agents.llm_agent import Agent
 
 from .retriever import Retriever
 
-MODEL = "gemini-3.5-flash"  # confirm the current free-tier Flash model ID in Google AI Studio
+MODEL = "gemini-3.1-flash-lite"  # same model as Workshop 1
 
 _retriever = None
 
